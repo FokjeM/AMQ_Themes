@@ -114,7 +114,6 @@
     background-image: -webkit-linear-gradient(to bottom,#8a1515 0,#850a0a 100%);
     background-image: -o-linear-gradient(to bottom,#8a1515 0,#850a0a 100%);
     background-image: linear-gradient(to bottom,#8a1515 0,#850a0a 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8a1515',endColorstr='#850a0a',GradientType=0);
 }
 .slider-handle {
 	background-color: #770205;
@@ -149,7 +148,6 @@
 	background-image: -webkit-linear-gradient(to bottom,#8a1515 0,#850a0a 100%);
 	background-image: -o-linear-gradient(to bottom,#8a1515 0,#850a0a 100%);
 	background-image: linear-gradient(to bottom,#8a1515 0,#850a0a 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8a1515',endColorstr='#850a0a',GradientType=0);
 }
 .switchContainer > .slider-tick-container > .switchOn  {
 	background-color: #770205;
