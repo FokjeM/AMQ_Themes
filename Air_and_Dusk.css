@@ -13,6 +13,28 @@
 #loadingScreen {
     background-image: url(https://images4.alphacoders.com/248/thumb-1920-248024.jpg);
 }
+:focus {
+    outline-color: #ba3535;
+}
+.form-control:focus {
+    border-color: #930066;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(138,21,21,.6);
+}
+.customCheckbox label {
+    color: #ba3535;
+}
+a:hover {
+    text-decoration: underline solid currentcolor !important;
+}
+a:link {
+    color: #ac55ac;
+}
+a:visited {
+    color: #ba3535;
+}
+.loginMainForm a {
+    color: #ac55ac;
+}
 .particleEmiter {
     -webkit-box-shadow: 0 0 10px #ac55ac, 0 0 20px #ac55ac, 0 0 30px #ac55ac, 0 0 40px #ac55ac, 0 0 70px #ac55ac, 0 0 80px #ac55ac, 0 0 100px #ac55ac, 0 0 150px #ac55ac;
     box-shadow: 0 0 10px #ac55ac, 0 0 20px #ac55ac, 0 0 30px #ac55ac, 0 0 40px #ac55ac, 0 0 70px #ac55ac, 0 0 80px #ac55ac, 0 0 100px #ac55ac, 0 0 150px #ac55ac;
