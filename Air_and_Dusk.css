@@ -35,6 +35,13 @@ a:visited {
 .loginMainForm a {
     color: #ac55ac;
 }
+.swal2-popup .swal2-styled.swal2-confirm {
+    background-color: #6a2020;
+    border-color: rgb(140, 10, 140);
+}
+.swal2-popup .swal2-styled:focus {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgba(75,20,75,.5)
+}
 .particleEmiter {
     -webkit-box-shadow: 0 0 10px #ac55ac, 0 0 20px #ac55ac, 0 0 30px #ac55ac, 0 0 40px #ac55ac, 0 0 70px #ac55ac, 0 0 80px #ac55ac, 0 0 100px #ac55ac, 0 0 150px #ac55ac;
     box-shadow: 0 0 10px #ac55ac, 0 0 20px #ac55ac, 0 0 30px #ac55ac, 0 0 40px #ac55ac, 0 0 70px #ac55ac, 0 0 80px #ac55ac, 0 0 100px #ac55ac, 0 0 150px #ac55ac;
@@ -117,6 +124,30 @@ a:visited {
 #qpAnswerInputContainer.focused {
     box-shadow: 0px 0px 15px 1px #cc2525;
 }
+.awesomplete mark {
+    color: #8a1515;
+    background-color: #523252;
+    padding: 0;
+}
+.awesomplete > ul {
+    background: #424242;
+    border: none;
+    -webkit-box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+.awesomplete > ul > li[aria-selected="true"] {
+    background-color: #330033;
+}
+.awesomplete > ul > li[aria-selected="true"] mark {
+    color: hsl(0, 81%, 44%);
+    background-color: #660066;
+}
+.awesomplete > ul >  li:hover {
+    background-color: #663366;
+}
+.awesomplete > ul > li:hover mark {
+    background-color: #660066;
+}
 .floatingContainer {
     border-color: #FF2525;
 }
@@ -157,11 +188,16 @@ a:visited {
 	-webkit-box-shadow: inset 0 0 20px 9px #8a1515;
 	box-shadow: inset 0 0 20px 9px #8a1515;
     background-color: rgb(140, 10, 140);
+    border-color: rgb(140, 10, 140);
 }
 
 .btn-primary:focus {
 	background-color: #8a1515;
     border-color: #3c153c;
+    outline-color: #ba3535;
+}
+btn:focus {
+    outline-color: #ba3535;
 }
 .progress-bar {
 	background-color: #8a1515;
@@ -345,4 +381,3 @@ a:visited {
 .awHibSkinOption {
     color: #8a1515;
 }
-
